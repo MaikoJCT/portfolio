@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #85bdbf;
+  font-family: "Playfair Display", serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #01161e solid 2px;
+  background-color: black;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.46262254901960786) 19%,
+    rgba(1, 22, 30, 1) 69%,
+    rgba(0, 0, 0, 1) 99%
+  );
+}
+.nome-header {
+  align-items: center;
+  display: flex;
+  margin: 0 15px;
+  color: #eff6e0;
+  font-size: 15px;
+}
+.buttons {
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 15px 20px;
+  gap: 20px;
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.nav {
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.btn {
+  text-decoration: none;
+  color: #eff6e0;
+}
+.btn:hover {
+  color: #598392;
+  transition: 0.3s;
+}
+
+.description {
+  display: flex;
+  background-color: #aec3b0;
+  height: 46rem;
+  border-bottom: #01161e solid 2px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.46262254901960786) 19%,
+    rgba(0, 0, 0, 0.7847514005602241) 69%,
+    rgba(0, 0, 0, 1) 99%
+  );
+}
+.my-photo {
+  width: 400px;
+  border-radius: 50%;
+  margin: 140px 200px 60px 50%;
+  align-items: center;
+}
+.name {
+  height: 100%;
+
+  width: 500px;
+  align-items: center;
+  padding-top: 270px;
+  padding-left: 50px;
+  margin-left: 140px;
+}
+.name h1 {
+  font-size: 40px;
+}
+.name h4 {
+  font-size: 15px;
+}
+
+.projects {
+  display: flex;
+  background-color: #598392;
+  border-bottom: #01161e solid 2px;
+  height: 50rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.46262254901960786) 19%,
+    rgba(89, 131, 146, 1) 69%,
+    rgba(0, 0, 0, 1) 99%
+  );
+}
+.my-project {
+  margin: 60px 0 0 20px;
+
+  font-size: 30px;
+  height: 0;
+  color: #eff6e0;
+}
+.historic-projects {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  padding: 100px 0px;
+  margin-top: 150px;
+  margin-left: 100px;
+  align-items: center;
+  gap: 20px;
+}
+.itens {
+  border: #040f0f solid;
+  width: 400px;
+  height: 200px;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  display: flex;
+}
+.about {
+  display: flex;
+  background-color: #124559;
+  border-bottom: #01161e solid 2px;
+  height: 50rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.46262254901960786) 19%,
+    rgba(18, 69, 89, 1) 69%,
+    rgba(0, 0, 0, 1) 99%
+  );
+}
+.about-me .text {
+  font-size: 40px;
+  width: 300px;
+  height: 100px;
+
+  color: #eff6e0;
+  margin: 60px 0 0 20px;
+}
+.my-description {
+  font-size: 22px;
+  color: #eff6e0;
+  height: 20rem;
+  padding: 200px 30px;
+}
+.skills {
+  background-color: #eff6e0;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 70px;
+  margin-left: 55px;
+  color: #01161e;
+}
+.images {
+  width: 100px;
+  height: 100px;
+}
+.contact-links {
+  background-color: #01161e;
+  height: 50rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.46262254901960786) 19%,
+    rgba(1, 22, 30, 1) 69%,
+    rgba(0, 0, 0, 1) 99%
+  );
+}
+.contact-text {
+  color: #eff6e0;
+  font-size: 25px;
+
+  height: 100px;
+  padding: 40px 30px;
+}
+.logos {
+  height: 500px;
+  padding: 200px;
+
+  padding-left: 500px;
+}
+
+.social-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  gap: 30px;
+}
+.social-logo:hover {
+  border: 10px solid #124559;
+  transition: 0.3s;
+}
+
+.div-footer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #01161e solid 2px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #eff6e0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.46262254901960786) 19%,
+    rgba(1, 22, 30, 1) 69%,
+    rgba(0, 0, 0, 1) 99%
+  );
+}
+.top {
+  text-decoration: none;
+  color: #eff6e0;
+}
+.top:hover {
+  color: #598392;
+  transition: 0.3s;
+}
