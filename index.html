@@ -12,7 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&family=Poppins:wght@100;300;500&family=Roboto:wght@400;700&family=Unbounded:wght@500&display=swap"
       rel="stylesheet"
     />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Portfólio Maiko Toporoski</title>
   </head>
@@ -20,13 +21,41 @@
     <header class="header" id="description">
       <div class="nome-header"><h1>Maiko Toporoski</h1></div>
       <div class="btn">
-        <nav class="nav">
-          <ul class="buttons">
-            <li><a href="#description" class="btn"> Home</a></li>
-            <li><a href="#projects" class="btn">Projetos</a></li>
-            <li><a href="#about" class="btn">Sobre</a></li>
-            <li><a href="#contacts" class="btn">Contatos</a></li>
-          </ul>
+        <nav class="navbar navbar-dark  fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Navegação.</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#description">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projetos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contatos</a>
+                  </li>
+                
+                </ul>
+               
+              </div>
+            </div>
+          </div>
+        </nav>
+         
+          </div>
+          
         </nav>
       </div>
     </header>
@@ -49,8 +78,7 @@
             <h1 class="itens">Projeto 2</h1>
             <h1 class="itens">Projeto 3</h1>
             <h1 class="itens">Projeto 4</h1>
-            <h1 class="itens">Projeto 5</h1>
-            <h1 class="itens">Projeto 6</h1>
+            
           </div>
         </div>
       </section>
@@ -95,5 +123,6 @@
   
      
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
