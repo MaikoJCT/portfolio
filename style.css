@@ -6,14 +6,18 @@
 body {
   background-color: #85bdbf;
   font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
 }
-
+main {
+  max-width: 100rem;
+}
 .header {
   display: flex;
   justify-content: space-between;
   border-bottom: #01161e solid 2px;
   background-color: black;
-  height: 9vh;
+  height: 5rem;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
@@ -26,19 +30,11 @@ body {
 .nome-header {
   align-items: center;
   display: flex;
-  margin: 0 15px;
+  margin: 0 1rem;
   color: #eff6e0;
   font-size: 15px;
 }
 
-.buttons {
-  list-style: none;
-  align-items: center;
-  justify-content: space-between;
-  display: flex;
-  padding: 15px 20px;
-  font-weight: bold;
-}
 .offcanvas-header {
   background-color: #124559;
 }
@@ -46,12 +42,12 @@ body {
   background-color: #124559;
   color: #eff6e0;
   font-family: "Playfair Display", serif;
-  padding-top: 100px;
+  padding-top: 10rem;
 }
 .navbar-toggler {
-  margin-top: 5px;
-  margin-right: 20px;
-  width: 70px;
+  margin-top: 0.6rem;
+  margin-right: 1rem;
+  width: 5rem;
 }
 .nav-link {
   font-size: 25px;
@@ -76,23 +72,29 @@ body {
     rgba(0, 0, 0, 1) 99%
   );
 }
+.photo {
+  margin: 0;
+  padding: 0;
+  width: 30rem;
+}
 .my-photo {
-  width: 400px;
+  width: 28rem;
   border-radius: 50%;
-  margin: 140px 200px 60px 50%;
-  align-items: center;
+  margin-top: 6rem;
+  margin-left: 20rem;
 }
 .name {
-  height: 100%;
   color: black;
-  width: 500px;
+  width: 31rem;
+
   align-items: center;
-  padding-top: 270px;
-  padding-left: 50px;
-  margin-left: 140px;
+  padding-top: 18rem;
+  padding-left: 19rem;
+  margin-left: 0;
 }
 .name h1 {
   font-size: 40px;
+  width: 19rem;
 }
 .name h4 {
   font-size: 15px;
@@ -113,30 +115,29 @@ body {
   );
 }
 .my-project {
-  margin: 60px 0 0 20px;
+  margin: 1rem 0 0 1rem;
 
   font-size: 30px;
-  height: 0;
   color: #eff6e0;
 }
 .historic-projects {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+
   justify-content: space-between;
-  padding: 0px 350px;
-  margin-top: 150px;
-  margin-left: 100px;
+  padding: 0 19rem;
+  margin-top: 15rem;
+  margin-left: 1rem;
   align-items: center;
   gap: 10px;
 }
 .itens {
   border: #040f0f solid;
-  width: 250px;
-  height: 250px;
+  width: 20rem;
+  height: 10rem;
   border-radius: 50px;
-  justify-content: center;
+  justify-content: space-between;
   background-color: white;
   align-items: center;
   display: flex;
@@ -157,26 +158,26 @@ body {
 }
 .about-me .text {
   font-size: 40px;
-  width: 300px;
-  height: 100px;
+  width: 13rem;
 
   color: #eff6e0;
-  margin: 60px 0 0 20px;
+  margin: 2rem 0 0 2rem;
 }
 .my-description {
   font-size: 22px;
   color: #eff6e0;
   height: 20rem;
-  padding: 200px 30px;
+  padding: 10rem 20rem;
+  width: 80rem;
 }
 .skills {
   background-color: #eff6e0;
-  padding: 30px;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
-  width: 100%;
-  margin-top: 63px;
-  margin-left: 55px;
+  width: 91rem;
+  margin-top: 11rem;
+  margin-left: 4rem;
   color: #01161e;
 }
 .images {
@@ -198,20 +199,20 @@ body {
 .contact-text {
   color: #eff6e0;
   font-size: 25px;
-
-  height: 100px;
-  padding: 40px 30px;
+  padding: 2rem 2rem;
 }
 .logos {
-  height: 500px;
-  padding: 200px;
+  height: 20rem;
+  padding: 12rem;
+  width: 90rem;
+  padding-right: 0;
 
-  padding-left: 500px;
+  padding-left: 31rem;
 }
 
 .social-logo {
-  width: 200px;
-  height: 200px;
+  width: 9rem;
+  height: 10rem;
   border-radius: 50%;
   gap: 30px;
 }
@@ -224,8 +225,8 @@ body {
   display: flex;
   justify-content: space-between;
   border-bottom: #01161e solid 2px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 2rem;
+  padding-left: 2rem;
   color: #eff6e0;
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -246,253 +247,150 @@ body {
 }
 
 @media (max-width: 1440px) {
-  .skills {
-    width: 90vw;
-  }
-  .historic-projects {
-    margin-top: 10vh;
-  }
-  .itens {
-    width: 26vw;
-  }
-  .logos {
-    display: flex;
-    gap: 10px;
-  }
-}
-@media (max-width: 1024px) {
-  .description {
-    height: 91vh;
-    margin-left: 0;
-  }
-  .my-photo {
-    margin-left: 10vw;
-    margin-right: 5vw;
-  }
-
-  .itens {
-    width: 22vw;
-  }
-  .my-description {
-    padding-top: 40px;
-  }
-  .name {
-    padding-left: 0;
-    margin-left: 0;
-  }
-  .projects {
-    height: 100vh;
-  }
-  .my-project {
-    margin-top: 2vh;
-  }
-  .about {
-    height: 100vh;
-  }
-  .about-me .text {
-    margin-top: 2vh;
-  }
-  .my-description {
-    margin-top: 10vh;
-    margin-bottom: 0;
-  }
-  .skills {
-    margin-top: 0;
-  }
-  .contact-text {
-    padding-top: 2vh;
-  }
-  .contact-links {
-    height: 94vh;
-  }
-  .logos {
-    padding-left: 10vw;
-    padding-top: 40vh;
-  }
-}
-@media (max-width: 768px) {
-  .header {
-    width: 122vw;
-  }
-  .description {
-    height: 113vh;
-  }
-  .name {
-    padding-top: 43vh;
-  }
-  .my-photo {
-    padding-top: 5vh;
-  }
-  .projects {
-    height: 122vh;
-  }
-  .historic-projects {
-    padding-top: 30vh;
-  }
-  .itens {
-    width: 28vh;
-    height: 25vh;
-  }
-  .about {
-    height: 122vh;
-  }
-  .skills {
-    margin-bottom: 0;
-    width: 107vw;
-  }
-  .my-description {
-    padding-top: 100px;
-    margin-bottom: 130px;
-  }
   main {
-    width: 122vw;
+    width: 74rem;
   }
-  .contact-links {
-    height: 116vh;
+  .skills {
+    width: 69rem;
+    margin-right: 0;
   }
   .logos {
-    padding-left: 40vw;
-    padding-top: 45vh;
+    padding-right: 0;
+    width: 69rem;
   }
-  .social-logo {
-    width: 18vw;
-    height: 18vw;
+  .my-description {
+    padding-right: 0;
+    width: 10rem;
   }
-  .footer {
-    width: 122vw;
-  }
+}
+
+@media (max-width: 768px) {
 }
 @media (max-width: 425px) {
-  body {
-    width: 0;
-    margin: 0;
-    height: 0;
-  }
   .header {
-    width: 200vw;
-    height: 20vh;
-  }
-  .navbar-toggler {
-    margin-top: 8px;
-    margin-right: 20px;
-    width: 100px;
-    height: 100px;
-    margin: solid;
-  }
-  .nome-header h1 {
-    font-size: 50px;
-  }
-  .description {
-    height: 191vh;
-    padding-left: 0;
-
-    display: block;
-  }
-  .name {
-    padding-left: 60vw;
-    margin-left: 0;
-    margin-top: 300px;
-  }
-  .name h1 {
-    font-size: 89px;
-  }
-  .name h4 {
-    font-size: 30px;
-    width: 500px;
-  }
-  .photo {
-    height: 100px;
-    padding-left: 110px;
-  }
-  .my-photo {
-    padding-top: 5vh;
-    margin-bottom: 0;
-    padding-right: 0;
-    margin-right: 0;
-    width: 130vw;
-    height: 130vw;
-  }
-  .projects {
-    height: 300vh;
-  }
-  .my-project h1 {
-    font-size: 50px;
-  }
-  .historic-projects {
-    display: block;
-    padding-top: 30vh;
-    padding-left: 25vw;
-  }
-  .itens {
-    width: 60vh;
-    height: 60vh;
-  }
-  .about {
-    height: 200vh;
-  }
-
-  .skills {
-    margin-bottom: 0;
-    width: 175vw;
-    margin-top: 550px;
-  }
-  .my-description {
-    padding-top: 250px;
-
-    width: 110vh;
-    padding-left: 100px;
-    font-size: 30px;
+    height: 10rem;
   }
   main {
-    width: 200vw;
+    width: 67rem;
   }
-  .contact-links {
-    height: 190vh;
-  }
-  .contact-text h1 {
-    font-size: 50px;
+  .skills {
+    width: 10rem;
   }
   .logos {
-    padding-left: 25vw;
-    padding-top: 80vh;
+    width: 5rem;
   }
-  .social-logo {
-    width: 40vw;
-    height: 40vw;
+  .name {
+    padding-left: 0;
   }
-  .div-footer {
-    height: 74px;
+  .description {
+    height: 137rem;
   }
-  .div-footer h3 {
-    font-size: 30px;
+  .projects {
+    height: 147rem;
   }
-  .div-footer .top {
-    font-size: 30px;
-    padding-top: 28px;
+  .about {
+    height: 147rem;
   }
-  .footer {
-    width: 200vw;
+  .contact-links {
+    height: 146rem;
   }
 }
 @media (max-width: 375px) {
   .header {
-    width: 205vw;
+    height: 10rem;
   }
   main {
-    width: 205vw;
+    width: 67rem;
   }
-  .footer {
-    width: 205vw;
+  .skills {
+    width: 59rem;
+    margin-top: 85rem;
+  }
+  .skills h1 {
+    font-size: 2rem;
+  }
+  .logos {
+    width: 5rem;
+    padding-left: 0;
+    display: flex;
+    padding-top: 50rem;
+  }
+  .social-logo {
+    width: 15rem;
+    height: 15rem;
   }
   .name {
-    padding-left: 55vw;
+    padding-left: 0;
+  }
+  .description {
+    height: 116rem;
+    display: block;
+  }
+  .my-photo {
+    margin-top: 20rem;
+    width: 40rem;
+    margin-left: 14rem;
+  }
+  .name {
+    padding-left: 18rem;
+    padding-top: 2rem;
+  }
+  .name h1 {
+    font-size: 8rem;
+  }
+  .name h4 {
+    font-size: 3rem;
+    width: 36rem;
+  }
+  .nome-header h1 {
+    font-size: 5rem;
+  }
+  .projects {
+    height: 147rem;
   }
   .historic-projects {
-    padding-left: 18vw;
+    width: 50rem;
+    display: block;
+    padding-left: 5rem;
+  }
+  .itens {
+    height: 30rem;
   }
   .about {
-    height: 220vh;
+    height: 126rem;
   }
+  .about-me .text {
+    font-size: 5rem;
+    width: 25rem;
+  }
+  .my-description {
+    width: 40rem;
+    padding-left: 8rem;
+    font-size: 3rem;
+  }
+  .contact-text h1 {
+    font-size: 5rem;
+  }
+  .contact-links {
+    height: 123rem;
+  }
+  .navbar-toggler {
+    margin-top: 0.6rem;
+    margin-right: 1rem;
+    width: 10rem;
+    height: 8rem;
+  }
+  .my-project h1 {
+    font-size: 5rem;
+  }
+  .div-footer h3 {
+    font-size: 3rem;
+  }
+  .div-footer h2 {
+    font-size: 3rem;
+  }
+}
+
   .my-description {
     font-size: 35px;
   }
