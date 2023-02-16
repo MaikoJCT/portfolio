@@ -247,7 +247,7 @@ main {
 }
 @media (max-width: 1454px) {
   main {
-    width: 93rem;
+    width: 0;
   }
   .skills {
     width: 69rem;
@@ -306,7 +306,7 @@ main {
     height: 54.2rem;
   }
   .skills {
-    width: 71rem;
+    width: 67rem;
     height: 7rem;
     margin-top: 20rem;
   }
@@ -377,7 +377,7 @@ main {
     height: 73rem;
   }
   .skills {
-    width: 71.1rem;
+    width: 67rem;
     margin-top: 39rem;
   }
   .my-description {
@@ -519,7 +519,7 @@ main {
     width: 67rem;
   }
   .skills {
-    width: 59rem;
+    width: 58rem;
     margin-top: 78rem;
   }
   .skills h1 {
@@ -606,4 +606,5 @@ main {
     font-size: 3rem;
   }
 }
+
 
