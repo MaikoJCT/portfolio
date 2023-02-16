@@ -422,7 +422,7 @@ main {
     padding-top: 3rem;
   }
   .description {
-    height: 101rem;
+    height: 112rem;
   }
   .my-description {
     font-size: 3rem;
@@ -431,7 +431,7 @@ main {
     width: 53rem;
   }
   .projects {
-    height: 111rem;
+    height: 121.3rem;
   }
   .my-project .prj {
     font-size: 5rem;
@@ -444,14 +444,14 @@ main {
     height: 20rem;
   }
   .about {
-    height: 111rem;
+    height: 121.2rem;
   }
   .about-me .text {
     font-size: 5rem;
     width: 25rem;
   }
   .contact-links {
-    height: 108.5rem;
+    height: 116rem;
   }
   .contact-text h1 {
     font-size: 5rem;
