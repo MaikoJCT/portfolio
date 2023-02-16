@@ -370,7 +370,7 @@ main {
   }
 }
 @media (max-width: 425px) {
-  .header {
+   .header {
     height: 10rem;
   }
   .nome-header h1 {
@@ -431,7 +431,7 @@ main {
     width: 53rem;
   }
   .projects {
-    height: 121.3rem;
+    height: 131.3rem;
   }
   .my-project .prj {
     font-size: 5rem;
@@ -444,14 +444,14 @@ main {
     height: 20rem;
   }
   .about {
-    height: 121.2rem;
+    height: 131.2rem;
   }
   .about-me .text {
     font-size: 5rem;
     width: 25rem;
   }
   .contact-links {
-    height: 116rem;
+    height: 126rem;
   }
   .contact-text h1 {
     font-size: 5rem;
