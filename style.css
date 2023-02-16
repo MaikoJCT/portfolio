@@ -270,29 +270,94 @@ main {
   .header {
     height: 10rem;
   }
+  .nome-header h1 {
+    font-size: 4rem;
+  }
+  .description {
+    display: block;
+  }
+  .navbar-toggler {
+    margin-top: 0.6rem;
+    margin-right: 1rem;
+    width: 10rem;
+    height: 8rem;
+  }
+  .my-photo {
+    margin-top: 12rem;
+    width: 35rem;
+    margin-left: 17rem;
+  }
+
+  .name h1 {
+    font-size: 6rem;
+    width: 46rem;
+  }
+  .name h4 {
+    font-size: 2.5rem;
+    width: 38rem;
+    padding-left: 8rem;
+  }
   main {
     width: 67rem;
   }
+
   .skills {
-    width: 10rem;
+    width: 59rem;
+    margin-top: 62rem;
   }
   .logos {
-    width: 5rem;
+    width: 58rem;
+    padding-left: 4rem;
+    padding-top: 40rem;
+  }
+  .social-logo {
+    width: 13rem;
+    height: 13rem;
   }
   .name {
-    padding-left: 0;
+    padding-left: 13rem;
+    padding-top: 3rem;
   }
   .description {
-    height: 137rem;
+    height: 101rem;
+  }
+  .my-description {
+    font-size: 3rem;
+    padding-left: 16rem;
+    padding-top: 20rem;
+    width: 53rem;
   }
   .projects {
-    height: 147rem;
+    height: 111rem;
+  }
+  .my-project .prj {
+    font-size: 5rem;
+  }
+  .historic-projects {
+    display: block;
+    padding-left: 3rem;
+  }
+  .itens {
+    height: 20rem;
   }
   .about {
-    height: 147rem;
+    height: 111rem;
+  }
+  .about-me .text {
+    font-size: 5rem;
+    width: 25rem;
   }
   .contact-links {
-    height: 146rem;
+    height: 108.5rem;
+  }
+  .contact-text h1 {
+    font-size: 5rem;
+  }
+  .div-footer h3 {
+    font-size: 3rem;
+  }
+  .div-footer h2 {
+    font-size: 3rem;
   }
 }
 @media (max-width: 375px) {
@@ -388,13 +453,5 @@ main {
   }
   .div-footer h2 {
     font-size: 3rem;
-  }
-}
-
-  .my-description {
-    font-size: 35px;
-  }
-  .contact-links {
-    height: 197vh;
   }
 }
