@@ -176,7 +176,7 @@ main {
   display: flex;
   justify-content: space-between;
   width: 91rem;
-  margin-top: 11rem;
+  margin-top: 15rem;
   margin-left: 4rem;
   color: #01161e;
 }
@@ -245,14 +245,34 @@ main {
   color: #598392;
   transition: 0.3s;
 }
-
-@media (max-width: 1440px) {
+@media (max-width: 1454px) {
   main {
-    width: 79rem;
+    width: 93rem;
   }
   .skills {
     width: 69rem;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 1440px) {
+  main {
+    width: 90rem;
+  }
+  .description {
+    height: 47rem;
+  }
+  .projects {
+    height: 52rem;
+  }
+  .about {
+    height: 52rem;
+  }
+  .skills {
+    width: 82rem;
+    margin-right: 0;
+    margin-top: 18rem;
+    height: 8rem;
   }
   .logos {
     padding-right: 0;
@@ -260,7 +280,11 @@ main {
   }
   .my-description {
     padding-right: 0;
-    width: 10rem;
+    width: 60rem;
+    padding-left: 35rem;
+  }
+  .contact-links {
+    height: 49rem;
   }
 }
 @media (max-width: 1024px) {
@@ -582,3 +606,4 @@ main {
     font-size: 3rem;
   }
 }
+
