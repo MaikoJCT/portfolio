@@ -248,7 +248,7 @@ main {
 
 @media (max-width: 1440px) {
   main {
-    width: 74rem;
+    width: 79rem;
   }
   .skills {
     width: 69rem;
@@ -263,8 +263,111 @@ main {
     width: 10rem;
   }
 }
+@media (max-width: 1024px) {
+  .description {
+    height: 52rem;
+  }
+  .my-photo {
+    margin-left: 10rem;
+    margin-top: 8rem;
+  }
+  .name {
+    padding-left: 10rem;
+    padding-top: 18rem;
+  }
+  .projects {
+    height: 54.2rem;
+  }
+  .about {
+    height: 54.2rem;
+  }
+  .skills {
+    width: 71rem;
+    height: 7rem;
+    margin-top: 20rem;
+  }
+  .skills h1 {
+    font-size: 2rem;
+  }
+  .images {
+    width: 5rem;
+    height: 5rem;
+  }
+  .my-description {
+    width: 60rem;
+    font-size: 1.5rem;
+    padding-left: 20rem;
+  }
+  .contact-links {
+    height: 51.2rem;
+  }
+}
 
 @media (max-width: 768px) {
+  .header {
+    height: 7rem;
+  }
+  .nome-header h1 {
+    font-size: 3rem;
+  }
+  .navbar-toggler {
+    margin-top: 0.6rem;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+  }
+  .my-photo {
+    margin-top: 14rem;
+    width: 30rem;
+    margin-left: 8rem;
+  }
+  .name {
+    padding-left: 10rem;
+    padding-top: 26rem;
+  }
+  .name h1 {
+    font-size: 3rem;
+    width: 23rem;
+  }
+  .description {
+    height: 65rem;
+  }
+  .name h4 {
+    font-size: 1.5rem;
+    width: 18rem;
+  }
+  .projects {
+    height: 73rem;
+  }
+  .historic-projects {
+    padding-left: 8rem;
+    width: 60rem;
+    margin-top: 15rem;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .itens {
+    width: 35rem;
+  }
+  .about {
+    height: 73rem;
+  }
+  .skills {
+    width: 71.1rem;
+    margin-top: 39rem;
+  }
+  .my-description {
+    width: 57rem;
+    font-size: 2rem;
+  }
+  .contact-links {
+    height: 70rem;
+  }
+  .logos {
+    padding-left: 18rem;
+    padding-top: 20rem;
+    width: 70rem;
+  }
 }
 @media (max-width: 425px) {
   .header {
@@ -369,7 +472,7 @@ main {
   }
   .skills {
     width: 59rem;
-    margin-top: 85rem;
+    margin-top: 78rem;
   }
   .skills h1 {
     font-size: 2rem;
