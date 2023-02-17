@@ -245,6 +245,14 @@ main {
   color: #598392;
   transition: 0.3s;
 }
+@media (max-width: 1440px) {
+  .skills {
+    width: 80rem;
+  }
+  .logos {
+    width: 20rem;
+  }
+}
 
 @media (max-width: 1024px) {
   main {
