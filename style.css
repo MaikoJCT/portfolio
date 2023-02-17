@@ -245,49 +245,11 @@ main {
   color: #598392;
   transition: 0.3s;
 }
-@media (max-width: 1454px) {
-  main {
-    width: 0;
-  }
-  .skills {
-    width: 69rem;
-    margin-right: 0;
-  }
-}
 
-@media (max-width: 1440px) {
-  main {
-    width: 90rem;
-  }
-  .description {
-    height: 47rem;
-  }
-  .projects {
-    height: 52rem;
-  }
-  .about {
-    height: 52rem;
-  }
-  .skills {
-    width: 82rem;
-    margin-right: 0;
-    margin-top: 18rem;
-    height: 8rem;
-  }
-  .logos {
-    padding-right: 0;
-    width: 69rem;
-  }
-  .my-description {
-    padding-right: 0;
-    width: 60rem;
-    padding-left: 35rem;
-  }
-  .contact-links {
-    height: 49rem;
-  }
-}
 @media (max-width: 1024px) {
+  main {
+    width: 64rem;
+  }
   .description {
     height: 52rem;
   }
@@ -306,7 +268,7 @@ main {
     height: 54.2rem;
   }
   .skills {
-    width: 67rem;
+    width: 55rem;
     height: 7rem;
     margin-top: 20rem;
   }
@@ -320,14 +282,22 @@ main {
   .my-description {
     width: 60rem;
     font-size: 1.5rem;
-    padding-left: 20rem;
+    padding-left: 15rem;
   }
   .contact-links {
     height: 51.2rem;
   }
+  .logos {
+    padding-left: 20rem;
+    padding-right: 0;
+    width: 40rem;
+  }
 }
 
 @media (max-width: 768px) {
+  main {
+    width: 66rem;
+  }
   .header {
     height: 7rem;
   }
@@ -377,7 +347,7 @@ main {
     height: 73rem;
   }
   .skills {
-    width: 67rem;
+    width: 58rem;
     margin-top: 39rem;
   }
   .my-description {
@@ -390,7 +360,8 @@ main {
   .logos {
     padding-left: 18rem;
     padding-top: 20rem;
-    width: 70rem;
+    width: 0rem;
+    padding-right: 0;
   }
 }
 @media (max-width: 425px) {
@@ -437,15 +408,15 @@ main {
     padding-left: 8rem;
   }
   main {
-    width: 67rem;
+    width: 64rem;
   }
 
   .skills {
-    width: 59rem;
+    width: 57rem;
     margin-top: 75rem;
   }
   .logos {
-    width: 58rem;
+    width: 0rem;
     padding-left: 4rem;
     padding-top: 40rem;
   }
@@ -516,24 +487,24 @@ main {
     height: 10rem;
   }
   main {
-    width: 67rem;
+    width: 64rem;
   }
   .skills {
-    width: 58rem;
+    width: 56rem;
     margin-top: 78rem;
   }
   .skills h1 {
     font-size: 2rem;
   }
   .logos {
-    width: 5rem;
+    width: 1rem;
     padding-left: 0;
     display: flex;
     padding-top: 50rem;
   }
   .social-logo {
-    width: 15rem;
-    height: 15rem;
+    width: 12rem;
+    height: 12rem;
   }
   .name {
     padding-left: 0;
@@ -606,5 +577,6 @@ main {
     font-size: 3rem;
   }
 }
+
 
 
