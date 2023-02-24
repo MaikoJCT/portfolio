@@ -127,18 +127,58 @@ main {
 
   justify-content: space-between;
   padding: 0 19rem;
-  margin-top: 15rem;
-  margin-left: 1rem;
+  padding-left: 10rem;
+  margin-top: 10rem;
+  margin-left: 0rem;
   align-items: center;
   gap: 10px;
 }
+.historic-projects h1 {
+  font-size: 25px;
+}
+#cards {
+  display: block;
+  justify-content: center;
+}
+#cards h1 {
+  padding-left: 4rem;
+}
+#cards p {
+  font-size: 15px;
+}
+#cards li {
+  font-size: 15px;
+}
+.nps {
+  width: 15rem;
+  height: 13rem;
+  border: solid white;
+  margin-left: 0;
+}
+.nps h1 {
+  text-decoration: none;
+}
+.calc {
+  width: 15rem;
+  height: 13rem;
+  border: solid white;
+}
+.wiki {
+  width: 15rem;
+  height: 13rem;
+  border: solid white;
+}
+.space {
+  width: 15rem;
+  height: 13rem;
+  border: solid white;
+}
 .itens {
-  border: #040f0f solid;
   width: 20rem;
   height: 10rem;
   border-radius: 50px;
   justify-content: space-between;
-  background-color: white;
+
   align-items: center;
   display: flex;
 }
@@ -168,7 +208,8 @@ main {
   color: #eff6e0;
   height: 20rem;
   padding: 10rem 20rem;
-  width: 80rem;
+  padding-left: 30rem;
+  width: 90rem;
 }
 .skills {
   background-color: #eff6e0;
@@ -250,7 +291,11 @@ main {
     width: 80rem;
   }
   .logos {
-    width: 20rem;
+    width: 48rem;
+    padding-left: 10rem;
+  }
+  .historic-projects {
+    padding-left: 5rem;
   }
 }
 
@@ -280,23 +325,41 @@ main {
     height: 7rem;
     margin-top: 20rem;
   }
+  .historic-projects {
+    gap: 0;
+    width: 10rem;
+  }
+  #cards h1 {
+    padding-left: 2rem;
+  }
   .skills h1 {
     font-size: 2rem;
+  }
+  .itens {
+    width: 13.5rem;
   }
   .images {
     width: 5rem;
     height: 5rem;
   }
+  .nps {
+    width: 12rem;
+    height: 12rem;
+  }
   .my-description {
     width: 60rem;
     font-size: 1.5rem;
-    padding-left: 15rem;
+    padding-left: 20rem;
+  }
+  .my-description p {
+    width: 30rem;
+    padding-left: 0;
   }
   .contact-links {
     height: 51.2rem;
   }
   .logos {
-    padding-left: 20rem;
+    padding-left: 0rem;
     padding-right: 0;
     width: 40rem;
   }
@@ -342,14 +405,14 @@ main {
     height: 73rem;
   }
   .historic-projects {
-    padding-left: 8rem;
+    padding-left: 3rem;
     width: 60rem;
     margin-top: 15rem;
     margin-right: 0;
     padding-right: 0;
   }
   .itens {
-    width: 35rem;
+    width: 10rem;
   }
   .about {
     height: 73rem;
@@ -366,9 +429,9 @@ main {
     height: 70rem;
   }
   .logos {
-    padding-left: 18rem;
+    padding-left: 0rem;
     padding-top: 20rem;
-    width: 0rem;
+    width: 38rem;
     padding-right: 0;
   }
 }
@@ -403,11 +466,11 @@ main {
   .my-photo {
     margin-top: 12rem;
     width: 35rem;
-    margin-left: 17rem;
+    margin-left: 15rem;
   }
 
   .name h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     width: 46rem;
   }
   .name h4 {
@@ -424,8 +487,8 @@ main {
     margin-top: 75rem;
   }
   .logos {
-    width: 0rem;
-    padding-left: 4rem;
+    width: 54rem;
+    padding-left: 0rem;
     padding-top: 40rem;
   }
   .social-logo {
@@ -445,18 +508,45 @@ main {
     padding-top: 20rem;
     width: 53rem;
   }
+  .my-description p {
+    font-size: 40px;
+  }
   .projects {
-    height: 131.3rem;
+    height: 260.3rem;
+  }
+  #cards h1 {
+    padding-left: 19rem;
+    font-size: 60px;
+    width: 40rem;
+  }
+  #cards p {
+    font-size: 30px;
+    width: 41rem;
+    padding-left: 11rem;
+    padding-top: 1rem;
+  }
+  #cards li {
+    font-size: 30px;
+    margin-left: 11rem;
   }
   .my-project .prj {
     font-size: 5rem;
   }
   .historic-projects {
     display: block;
+
     padding-left: 3rem;
+    width: 50rem;
+  }
+  .nps {
+    width: 35rem;
+    height: 30rem;
+    margin-bottom: 1rem;
+    margin-left: 10.5rem;
+    border-radius: 10px;
   }
   .itens {
-    height: 20rem;
+    height: 60rem;
   }
   .about {
     height: 131.2rem;
@@ -524,32 +614,33 @@ main {
   .my-photo {
     margin-top: 20rem;
     width: 40rem;
-    margin-left: 14rem;
+    margin-left: 12.5rem;
   }
   .name {
     padding-left: 18rem;
     padding-top: 2rem;
   }
   .name h1 {
-    font-size: 8rem;
+    font-size: 4rem;
+    padding-left: 0;
   }
   .name h4 {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 36rem;
   }
   .nome-header h1 {
     font-size: 5rem;
   }
   .projects {
-    height: 147rem;
+    height: 250rem;
   }
   .historic-projects {
     width: 50rem;
     display: block;
-    padding-left: 5rem;
+    padding-left: 3.5rem;
   }
   .itens {
-    height: 30rem;
+    height: 56rem;
   }
   .about {
     height: 126rem;
@@ -557,6 +648,10 @@ main {
   .about-me .text {
     font-size: 5rem;
     width: 25rem;
+  }
+  .my-description p {
+    padding-left: 6rem;
+    width: 48rem;
   }
   .my-description {
     width: 40rem;
@@ -585,6 +680,4 @@ main {
     font-size: 3rem;
   }
 }
-
-
 
